@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="container">
+	<div class="page-header"><a href="{:url('Login/index')}" class="btn btn-primary">注销</a></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">姓名</label>
+                            <input name="name" type="text" class="form-control" placeholder="姓名..." value="{:input('get.name')}">
+                        </div>
+                        <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i>&nbsp;查询</button>
+                    </form>
+                </div>
+                <div class="col-md-4 text-right">
+                    <a href="{:url('add')}" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>&nbsp;增加</a>
+                </div>
+            </div>
+            <hr />
+            <table class="table table-hover table-bordered">
+                <tr class="info">
+                    <th>序号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>邮箱</th>
+                    <th>用户名</th>
+                    <th>创建时间</th>
+                    <th>更新时间</th>
+                    <th>操作</th>
+                </tr>
+                {volist name="users" id="user" key="key"}
+                <tr>
+                    <td>{$key}</td>
+                    <td>{$user->getData('name')}</td>
+                    <td>{eq name='user->getData("sex")' value='0'}男{else /}女{/eq}</td>
+                    <td>{$user->getData('email')}</td>
+                    <td>{$user->getData('username')}</td>
+                    <td>{$user->getData('create_time')}</td>
+                    <td>{$user->getData('update_time')}</td>
+                    <td>
+                    	<a href="{:url('edit?id='.$user->getData('id'))}">编辑</a>
+                    	&nbsp;&nbsp;
+                    	<a href="{:url('delete?id='.$user->getData('id'))}">删除</a>
+                    </td>
+                </tr>
+                {/volist}
+            </table>
+            {$users->render()}
+        </div>
+    </div>
+    <hr />
+    <div class="footer">欢迎【{$user->getData('name')}】登陆</div>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+[ 2017-04-22T08:15:59+08:00 ] ::1 ::1 GET /thinkphp/public/index/user/index
+[ log ] localhost/thinkphp/public/index/user/index [运行时间：0.113754s][吞吐率：8.79req/s] [内存消耗：2,967.33kb] [文件加载：61]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\UserController->index[ D:\AppServ\www\thinkphp\application\index\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001846s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001139s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `th_user` LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` LIMIT 0,5 [ RunTime:0.000442s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:00+08:00 ] ::1 ::1 GET /thinkphp/public/index/user/index
+[ log ] localhost/thinkphp/public/index/user/index [运行时间：0.059281s][吞吐率：16.87req/s] [内存消耗：2,822.02kb] [文件加载：59]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\UserController->index[ D:\AppServ\www\thinkphp\application\index\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001780s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `th_user` LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` LIMIT 0,5 [ RunTime:0.000482s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:04+08:00 ] ::1 ::1 GET /thinkphp/public/index/user/index
+[ log ] localhost/thinkphp/public/index/user/index [运行时间：0.055892s][吞吐率：17.89req/s] [内存消耗：2,822.02kb] [文件加载：59]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\UserController->index[ D:\AppServ\www\thinkphp\application\index\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `th_user` LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` LIMIT 0,5 [ RunTime:0.000673s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:11+08:00 ] ::1 ::1 GET /thinkphp/public/index/login/index.html
+[ log ] localhost/thinkphp/public/index/login/index.html [运行时间：0.034873s][吞吐率：28.68req/s] [内存消耗：1,698.53kb] [文件加载：46]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->index[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:13+08:00 ] ::1 ::1 POST /thinkphp/public/index/login/login.html
+[ log ] localhost/thinkphp/public/index/login/login.html [运行时间：0.066271s][吞吐率：15.09req/s] [内存消耗：2,824.68kb] [文件加载：58]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001695s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000693s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:16+08:00 ] ::1 ::1 GET /thinkphp/public/index/login/index.html
+[ log ] localhost/thinkphp/public/index/login/index.html [运行时间：0.047339s][吞吐率：21.12req/s] [内存消耗：1,698.52kb] [文件加载：46]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->index[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:25+08:00 ] ::1 ::1 POST /thinkphp/public/index/login/login.html
+[ log ] localhost/thinkphp/public/index/login/login.html [运行时间：0.057179s][吞吐率：17.49req/s] [内存消耗：2,684.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001747s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000603s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:28+08:00 ] ::1 ::1 GET /thinkphp/public/index/login/index.html
+[ log ] localhost/thinkphp/public/index/login/index.html [运行时间：0.095544s][吞吐率：10.47req/s] [内存消耗：1,698.52kb] [文件加载：46]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->index[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:43+08:00 ] ::1 ::1 POST /thinkphp/public/index/login/login.html
+[ log ] localhost/thinkphp/public/index/login/login.html [运行时间：0.056462s][吞吐率：17.71req/s] [内存消耗：2,684.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'mikesdh',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` WHERE  `username` = 'mikesdh' LIMIT 1 [ RunTime:0.000588s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:46+08:00 ] ::1 ::1 GET /thinkphp/public/index/login/index.html
+[ log ] localhost/thinkphp/public/index/login/index.html [运行时间：0.034006s][吞吐率：29.41req/s] [内存消耗：1,698.52kb] [文件加载：46]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->index[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:54+08:00 ] ::1 ::1 POST /thinkphp/public/index/login/login.html
+[ log ] localhost/thinkphp/public/index/login/login.html [运行时间：0.052142s][吞吐率：19.18req/s] [内存消耗：2,686.24kb] [文件加载：56]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'mikesdh',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ D:\AppServ\www\thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001248s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` WHERE  `username` = 'mikesdh' LIMIT 1 [ RunTime:0.000540s ]
+
+---------------------------------------------------------------
+[ 2017-04-22T08:16:58+08:00 ] ::1 ::1 GET /thinkphp/public/index/user/index.html
+[ log ] localhost/thinkphp/public/index/user/index.html [运行时间：0.060368s][吞吐率：16.57req/s] [内存消耗：2,822.12kb] [文件加载：59]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/thinkphp/public/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=15b36be09dcee-0c7ed5ea79b064-66191378-100200-15b36be09dd179; Hm_lvt_b1331a132230581e02d9672cd9b95b22=1491281077,1491304331; CNZZDATA1618465=cnzz_eid%3D736041277-1491269062-%26ntime%3D1491310071; bjui_theme=green; pgv_pvi=713158656; PHPSESSID=f8k8k5r27n7lhoa6a1fe6ksq17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\UserController->index[ D:\AppServ\www\thinkphp\application\index\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\thinkphp\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001225s ] mysql:dbname=think;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `th_user` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `th_user` LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `th_user` LIMIT 0,5 [ RunTime:0.000499s ]
+
+---------------------------------------------------------------
